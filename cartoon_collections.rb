@@ -11,8 +11,7 @@ def summon_captain_planet(array)
       item.first.capitalize
       new_array.push(item)
     end
-    return new_array
-
+  return new_array
 end
 
 def long_planeteer_calls# code an argument here
