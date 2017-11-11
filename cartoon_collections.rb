@@ -9,7 +9,7 @@ def summon_captain_planet(array)
   new_array = []
   array.collect do |item|
       new_string = "#{item.capitalize}!"
-      new_array.push(item)
+      new_array.push(new_string)
     end
   return new_array
 end
