@@ -3,6 +3,7 @@ def roll_call_dwarves(string)
   string.each do |item|
     new_array.push(item)
   end
+  return new_array
 end
 
 def summon_captain_planet# code an argument here
