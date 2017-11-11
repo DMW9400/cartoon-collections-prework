@@ -1,6 +1,7 @@
 def roll_call_dwarves(string)
+  new_array = []
   string.each do |item|
-    puts item
+    new_array.push(item)
   end
 end
 
